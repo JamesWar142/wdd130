@@ -1,0 +1,47 @@
+#content{
+    justify-self: center;
+}
+body{
+    background-color: #FFECD7;
+}
+.card{
+    border: 5px solid #004E63;
+    border-radius: 25px;
+    background-color: #008DB1;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.title{
+    color: #FFFFFE;
+    font-family: Helvetica;
+    justify-self: center;
+}
+.sub-title{
+    color: #91E4FB;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+p{
+    justify-self: center;
+    width: 300px;
+    text-align: center;
+}
+.prophet-img{
+    border: 5px solid #FFFFFE;
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+ul{
+    font-size: 20px;
+    color: #FFFFFE;
+    font-family: Helvetica;
+    justify-self: center;
+}
+.quote{
+    color: #FFD783;
+    width: 300px;
+    font-family: 'Brush Script MT', 'Nanum Brush Script';
+    justify-self: center;
+    text-align: center;
+}
