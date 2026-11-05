@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+.jesus_feeds{
+    width: 100%;
+    grid-column: 1/6;
+    grid-row: 1/2;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#formContainer{
+    display: grid;
+    gap:5px;
+    grid-template-columns: repeat(5, 5fr);
+    justify-self: center;
+    text-align: center;
+    border: 10px solid darkblue;
+    border-radius: 25px;
+    background-color: white;
+    width: 500px;
+}
+body {
+    background: rgb(120, 96, 64);
+}
+#title{
+    align-self: center;
+    color: white;
+    grid-column: 1/6;
+    grid-row: 1/2;
+    font-size: 25px;
+    text-shadow: 3px 3px black;
+}
+h3{
+    grid-column: 1/6;
+    margin-top: 15px;
+}
+#myForm{
+    justify-self: center;
+    width: 100%;
+    grid-column: 1/6;
+    margin: 15px;
+}
+#closeBtn{
+    position: absolute;
+    margin: 10px;
+}
+.old_testament, .new_testament, .book_of_mormon, .d_and_c, .pearl{
+    width: 100%;
+}
+.old_testament{
+    border-bottom-left-radius: 15px;
+}
+.pearl{
+    border-bottom-right-radius: 15px;
+}
