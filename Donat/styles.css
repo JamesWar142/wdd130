@@ -1,0 +1,25 @@
+#content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    width: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#home-image{
+    width: 100%;
+}
+#almond-joy,#chocolate-peppermint,#oatmeal-chip,#salted-chip{
+    width: 80px;
+}
+
+#cherry-image, #choc-chip-image, #peppermint-image,
+#churro-image, #coconut-lime-image, #cookies-n-cream-image,
+#mint-brownie-image, #smores-image{
+    width: 200px;
+}
